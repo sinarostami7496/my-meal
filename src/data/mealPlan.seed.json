@@ -1,0 +1,1135 @@
+{
+  "version": 1,
+  "importedAt": "2026-10-28T20:15:21.698Z",
+  "sourceFileName": "برنامه_غذایی_حجم_پاک_کبد_چرب (1).xlsx",
+  "calculations": {
+    "bmr": 1799,
+    "tdee": 2788,
+    "trainingDayTarget": {
+      "calories": 3100,
+      "protein": 190,
+      "carbs": 400,
+      "fat": 80
+    },
+    "restDayTarget": {
+      "calories": 2900,
+      "protein": 185,
+      "carbs": 350,
+      "fat": 85
+    }
+  },
+  "slotTemplates": [
+    {
+      "slotKey": "0530:preworkout",
+      "title": "پیش از تمرین / صبحانه سبک",
+      "scheduledTime": "05:30",
+      "category": "preworkout",
+      "options": [
+        {
+          "id": "0530:preworkout:opt1",
+          "optionIndex": 0,
+          "label": "گزینه 1",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "موز",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "جو دوسر پرک",
+              "amount": 35,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سفیده تخم‌مرغ پخته",
+              "amount": 80,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "موز 100 g؛ جو دوسر پرک 35 g؛ سفیده تخم‌مرغ پخته 80 g",
+          "protein": 15.7,
+          "carbs": 46.6,
+          "fat": 2.9,
+          "calories": 275
+        },
+        {
+          "id": "0530:preworkout:opt2",
+          "optionIndex": 1,
+          "label": "گزینه 2",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "نان سبوس‌دار",
+              "amount": 65,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "موز",
+              "amount": 80,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سفیده تخم‌مرغ پخته",
+              "amount": 100,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "نان سبوس‌دار 65 g؛ موز 80 g؛ سفیده تخم‌مرغ پخته 100 g",
+          "protein": 17.6,
+          "carbs": 48.2,
+          "fat": 2.7,
+          "calories": 288
+        },
+        {
+          "id": "0530:preworkout:opt3",
+          "optionIndex": 2,
+          "label": "گزینه 3",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "سیب‌زمینی آب‌پز",
+              "amount": 190,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "ماست یونانی کم‌چرب",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "نان سبوس‌دار",
+              "amount": 20,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "سیب‌زمینی آب‌پز 190 g؛ ماست یونانی کم‌چرب 100 g؛ نان سبوس‌دار 20 g",
+          "protein": 15.6,
+          "carbs": 51.2,
+          "fat": 2.9,
+          "calories": 293
+        }
+      ]
+    },
+    {
+      "slotKey": "0830:breakfast",
+      "title": "پس از تمرین / صبحانه",
+      "scheduledTime": "08:30",
+      "category": "breakfast",
+      "options": [
+        {
+          "id": "0830:breakfast:opt1",
+          "optionIndex": 0,
+          "label": "گزینه 1",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "جو دوسر پرک",
+              "amount": 55,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "شیر کم‌چرب",
+              "amount": 250,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سفیده تخم‌مرغ پخته",
+              "amount": 150,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "موز",
+              "amount": 100,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "جو دوسر پرک 55 g؛ شیر کم‌چرب 250 g؛ سفیده تخم‌مرغ پخته 150 g؛ موز 100 g",
+          "protein": 35.2,
+          "carbs": 72.8,
+          "fat": 8.1,
+          "calories": 506
+        },
+        {
+          "id": "0830:breakfast:opt2",
+          "optionIndex": 1,
+          "label": "گزینه 2",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "برنج پخته",
+              "amount": 180,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "سینه مرغ گریل/آب‌پز",
+              "amount": 90,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سبزیجات بخارپز (بروکلی/سبزی تیره)",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "روغن زیتون فرابکر (افزوده پس از پخت)",
+              "amount": 3,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "برنج پخته 180 g؛ سینه مرغ گریل/آب‌پز 90 g؛ سبزیجات بخارپز (بروکلی/سبزی تیره) 100 g؛ روغن زیتون فرابکر (افزوده پس از پخت) 3 g",
+          "protein": 34.8,
+          "carbs": 56.4,
+          "fat": 7.1,
+          "calories": 428
+        },
+        {
+          "id": "0830:breakfast:opt3",
+          "optionIndex": 2,
+          "label": "گزینه 3",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "نان سبوس‌دار",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "تخم‌مرغ آب‌پز",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سفیده تخم‌مرغ پخته",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "پرتقال",
+              "amount": 100,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "نان سبوس‌دار 100 g؛ تخم‌مرغ آب‌پز 100 g؛ سفیده تخم‌مرغ پخته 100 g؛ پرتقال 100 g",
+          "protein": 33.4,
+          "carbs": 58.4,
+          "fat": 14.4,
+          "calories": 497
+        }
+      ]
+    },
+    {
+      "slotKey": "1115:snack1",
+      "title": "میان‌وعده ۱",
+      "scheduledTime": "11:15",
+      "category": "snack1",
+      "options": [
+        {
+          "id": "1115:snack1:opt1",
+          "optionIndex": 0,
+          "label": "گزینه 1",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "ماست یونانی کم‌چرب",
+              "amount": 180,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "جو دوسر پرک",
+              "amount": 25,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سیب",
+              "amount": 120,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "گردو",
+              "amount": 8,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "ماست یونانی کم‌چرب 180 g؛ جو دوسر پرک 25 g؛ سیب 120 g؛ گردو 8 g",
+          "protein": 23.8,
+          "carbs": 41.7,
+          "fat": 10.8,
+          "calories": 359
+        },
+        {
+          "id": "1115:snack1:opt2",
+          "optionIndex": 1,
+          "label": "گزینه 2",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "نان سبوس‌دار",
+              "amount": 70,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "بوقلمون پخته",
+              "amount": 65,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "خیار",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "روغن زیتون فرابکر (افزوده پس از پخت)",
+              "amount": 4,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "نان سبوس‌دار 70 g؛ بوقلمون پخته 65 g؛ خیار 100 g؛ روغن زیتون فرابکر (افزوده پس از پخت) 4 g",
+          "protein": 25.9,
+          "carbs": 35.1,
+          "fat": 7.8,
+          "calories": 314
+        },
+        {
+          "id": "1115:snack1:opt3",
+          "optionIndex": 2,
+          "label": "گزینه 3",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "عدس پخته",
+              "amount": 130,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "ماست یونانی کم‌چرب",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "نان سبوس‌دار",
+              "amount": 25,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "عدس پخته 130 g؛ ماست یونانی کم‌چرب 100 g؛ نان سبوس‌دار 25 g",
+          "protein": 23.9,
+          "carbs": 41.2,
+          "fat": 3.4,
+          "calories": 291
+        }
+      ]
+    },
+    {
+      "slotKey": "1345:lunch",
+      "title": "ناهار",
+      "scheduledTime": "13:45",
+      "category": "lunch",
+      "options": [
+        {
+          "id": "1345:lunch:opt1",
+          "optionIndex": 0,
+          "label": "گزینه 1",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "برنج پخته",
+              "amount": 300,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "سینه مرغ گریل/آب‌پز",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سبزیجات بخارپز (بروکلی/سبزی تیره)",
+              "amount": 150,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "روغن زیتون فرابکر (افزوده پس از پخت)",
+              "amount": 16,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "برنج پخته 300 g؛ سینه مرغ گریل/آب‌پز 100 g؛ سبزیجات بخارپز (بروکلی/سبزی تیره) 150 g؛ روغن زیتون فرابکر (افزوده پس از پخت) 16 g",
+          "protein": 42.1,
+          "carbs": 93,
+          "fat": 20.9,
+          "calories": 729
+        },
+        {
+          "id": "1345:lunch:opt2",
+          "optionIndex": 1,
+          "label": "گزینه 2",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "سیب‌زمینی آب‌پز",
+              "amount": 250,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "ماهی سالمون گریل",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سبزیجات بخارپز (بروکلی/سبزی تیره)",
+              "amount": 150,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "برنج پخته",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-4",
+              "name": "روغن زیتون فرابکر (افزوده پس از پخت)",
+              "amount": 8,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "سیب‌زمینی آب‌پز 250 g؛ ماهی سالمون گریل 100 g؛ سبزیجات بخارپز (بروکلی/سبزی تیره) 150 g؛ برنج پخته 100 g؛ روغن زیتون فرابکر (افزوده پس از پخت) 8 g",
+          "protein": 35.7,
+          "carbs": 87.2,
+          "fat": 22,
+          "calories": 690
+        },
+        {
+          "id": "1345:lunch:opt3",
+          "optionIndex": 2,
+          "label": "گزینه 3",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "برنج پخته",
+              "amount": 250,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "عدس پخته",
+              "amount": 150,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "بوقلمون پخته",
+              "amount": 50,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "سبزیجات بخارپز (بروکلی/سبزی تیره)",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-4",
+              "name": "روغن زیتون فرابکر (افزوده پس از پخت)",
+              "amount": 13,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "برنج پخته 250 g؛ عدس پخته 150 g؛ بوقلمون پخته 50 g؛ سبزیجات بخارپز (بروکلی/سبزی تیره) 100 g؛ روغن زیتون فرابکر (افزوده پس از پخت) 13 g",
+          "protein": 36.8,
+          "carbs": 106,
+          "fat": 15.7,
+          "calories": 712
+        }
+      ]
+    },
+    {
+      "slotKey": "1715:snack2",
+      "title": "میان‌وعده ۲",
+      "scheduledTime": "17:15",
+      "category": "snack2",
+      "options": [
+        {
+          "id": "1715:snack2:opt1",
+          "optionIndex": 0,
+          "label": "گزینه 1",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "ماست یونانی کم‌چرب",
+              "amount": 150,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "موز",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "بادام",
+              "amount": 12,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "جو دوسر پرک",
+              "amount": 20,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "ماست یونانی کم‌چرب 150 g؛ موز 100 g؛ بادام 12 g؛ جو دوسر پرک 20 g",
+          "protein": 22,
+          "carbs": 44.7,
+          "fat": 10.7,
+          "calories": 363
+        },
+        {
+          "id": "1715:snack2:opt2",
+          "optionIndex": 1,
+          "label": "گزینه 2",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "نان سبوس‌دار",
+              "amount": 65,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "سفیده تخم‌مرغ پخته",
+              "amount": 120,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "آووکادو",
+              "amount": 25,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "پرتقال",
+              "amount": 100,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "نان سبوس‌دار 65 g؛ سفیده تخم‌مرغ پخته 120 g؛ آووکادو 25 g؛ پرتقال 100 g",
+          "protein": 20.3,
+          "carbs": 44.2,
+          "fat": 6.3,
+          "calories": 315
+        },
+        {
+          "id": "1715:snack2:opt3",
+          "optionIndex": 2,
+          "label": "گزینه 3",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "لوبیا پخته",
+              "amount": 120,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "نان سبوس‌دار",
+              "amount": 40,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "ماست یونانی کم‌چرب",
+              "amount": 100,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "لوبیا پخته 120 g؛ نان سبوس‌دار 40 g؛ ماست یونانی کم‌چرب 100 g",
+          "protein": 24,
+          "carbs": 49.4,
+          "fat": 4,
+          "calories": 330
+        }
+      ]
+    },
+    {
+      "slotKey": "2015:dinner",
+      "title": "شام",
+      "scheduledTime": "20:15",
+      "category": "dinner",
+      "options": [
+        {
+          "id": "2015:dinner:opt1",
+          "optionIndex": 0,
+          "label": "گزینه 1",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "برنج پخته",
+              "amount": 180,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "بوقلمون پخته",
+              "amount": 90,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سبزیجات بخارپز (بروکلی/سبزی تیره)",
+              "amount": 180,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "روغن زیتون فرابکر (افزوده پس از پخت)",
+              "amount": 15,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "برنج پخته 180 g؛ بوقلمون پخته 90 g؛ سبزیجات بخارپز (بروکلی/سبزی تیره) 180 g؛ روغن زیتون فرابکر (افزوده پس از پخت) 15 g",
+          "protein": 34.6,
+          "carbs": 61.2,
+          "fat": 17.9,
+          "calories": 544
+        },
+        {
+          "id": "2015:dinner:opt2",
+          "optionIndex": 1,
+          "label": "گزینه 2",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "پاستای سبوس‌دار پخته",
+              "amount": 150,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "سینه مرغ گریل/آب‌پز",
+              "amount": 80,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سبزیجات بخارپز (بروکلی/سبزی تیره)",
+              "amount": 150,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "روغن زیتون فرابکر (افزوده پس از پخت)",
+              "amount": 13,
+              "unit": "g"
+            },
+            {
+              "id": "ing-4",
+              "name": "برنج پخته",
+              "amount": 50,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "پاستای سبوس‌دار پخته 150 g؛ سینه مرغ گریل/آب‌پز 80 g؛ سبزیجات بخارپز (بروکلی/سبزی تیره) 150 g؛ روغن زیتون فرابکر (افزوده پس از پخت) 13 g؛ برنج پخته 50 g",
+          "protein": 37.9,
+          "carbs": 68,
+          "fat": 18.1,
+          "calories": 587
+        },
+        {
+          "id": "2015:dinner:opt3",
+          "optionIndex": 2,
+          "label": "گزینه 3",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "سیب‌زمینی آب‌پز",
+              "amount": 200,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "تخم‌مرغ آب‌پز",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "سفیده تخم‌مرغ پخته",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "سبزیجات بخارپز (بروکلی/سبزی تیره)",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-4",
+              "name": "برنج پخته",
+              "amount": 50,
+              "unit": "g"
+            },
+            {
+              "id": "ing-5",
+              "name": "روغن زیتون فرابکر (افزوده پس از پخت)",
+              "amount": 7,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "سیب‌زمینی آب‌پز 200 g؛ تخم‌مرغ آب‌پز 100 g؛ سفیده تخم‌مرغ پخته 100 g؛ سبزیجات بخارپز (بروکلی/سبزی تیره) 100 g؛ برنج پخته 50 g؛ روغن زیتون فرابکر (افزوده پس از پخت) 7 g",
+          "protein": 30.9,
+          "carbs": 61.6,
+          "fat": 18.4,
+          "calories": 536
+        }
+      ]
+    },
+    {
+      "slotKey": "2245:bedtime",
+      "title": "پیش از خواب",
+      "scheduledTime": "22:45",
+      "category": "bedtime",
+      "options": [
+        {
+          "id": "2245:bedtime:opt1",
+          "optionIndex": 0,
+          "label": "گزینه 1",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "ماست یونانی کم‌چرب",
+              "amount": 180,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "دانه چیا",
+              "amount": 8,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "گردو",
+              "amount": 6,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "گلابی",
+              "amount": 80,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "ماست یونانی کم‌چرب 180 g؛ دانه چیا 8 g؛ گردو 6 g؛ گلابی 80 g",
+          "protein": 20.6,
+          "carbs": 23.5,
+          "fat": 10,
+          "calories": 267
+        },
+        {
+          "id": "2245:bedtime:opt2",
+          "optionIndex": 1,
+          "label": "گزینه 2",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "پنیر کاتیج کم‌چرب",
+              "amount": 150,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "نان سبوس‌دار",
+              "amount": 25,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "خیار",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "روغن زیتون فرابکر (افزوده پس از پخت)",
+              "amount": 3,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "پنیر کاتیج کم‌چرب 150 g؛ نان سبوس‌دار 25 g؛ خیار 100 g؛ روغن زیتون فرابکر (افزوده پس از پخت) 3 g",
+          "protein": 20.9,
+          "carbs": 20.9,
+          "fat": 10,
+          "calories": 257
+        },
+        {
+          "id": "2245:bedtime:opt3",
+          "optionIndex": 2,
+          "label": "گزینه 3",
+          "ingredients": [
+            {
+              "id": "ing-0",
+              "name": "شیر کم‌چرب",
+              "amount": 250,
+              "unit": "g"
+            },
+            {
+              "id": "ing-1",
+              "name": "ماست یونانی کم‌چرب",
+              "amount": 100,
+              "unit": "g"
+            },
+            {
+              "id": "ing-2",
+              "name": "جو دوسر پرک",
+              "amount": 15,
+              "unit": "g"
+            },
+            {
+              "id": "ing-3",
+              "name": "بادام",
+              "amount": 5,
+              "unit": "g"
+            }
+          ],
+          "ingredientsText": "شیر کم‌چرب 250 g؛ ماست یونانی کم‌چرب 100 g؛ جو دوسر پرک 15 g؛ بادام 5 g",
+          "protein": 22.1,
+          "carbs": 27.5,
+          "fat": 9.3,
+          "calories": 282
+        }
+      ]
+    }
+  ],
+  "weekdayMeta": {
+    "saturday": {
+      "weekday": "saturday",
+      "dayType": "training",
+      "slots": [
+        {
+          "slotKey": "0530:preworkout",
+          "title": "پیش از تمرین / صبحانه سبک",
+          "scheduledTime": "05:30"
+        },
+        {
+          "slotKey": "0830:breakfast",
+          "title": "پس از تمرین / صبحانه",
+          "scheduledTime": "08:30"
+        },
+        {
+          "slotKey": "1115:snack1",
+          "title": "میان‌وعده ۱",
+          "scheduledTime": "11:15"
+        },
+        {
+          "slotKey": "1345:lunch",
+          "title": "ناهار",
+          "scheduledTime": "13:45"
+        },
+        {
+          "slotKey": "1715:snack2",
+          "title": "میان‌وعده ۲",
+          "scheduledTime": "17:15"
+        },
+        {
+          "slotKey": "2015:dinner",
+          "title": "شام",
+          "scheduledTime": "20:15"
+        },
+        {
+          "slotKey": "2245:bedtime",
+          "title": "پیش از خواب",
+          "scheduledTime": "22:45"
+        }
+      ]
+    },
+    "sunday": {
+      "weekday": "sunday",
+      "dayType": "training",
+      "slots": [
+        {
+          "slotKey": "0530:preworkout",
+          "title": "پیش از تمرین / صبحانه سبک",
+          "scheduledTime": "05:30"
+        },
+        {
+          "slotKey": "0830:breakfast",
+          "title": "پس از تمرین / صبحانه",
+          "scheduledTime": "08:30"
+        },
+        {
+          "slotKey": "1115:snack1",
+          "title": "میان‌وعده ۱",
+          "scheduledTime": "11:15"
+        },
+        {
+          "slotKey": "1345:lunch",
+          "title": "ناهار",
+          "scheduledTime": "13:45"
+        },
+        {
+          "slotKey": "1715:snack2",
+          "title": "میان‌وعده ۲",
+          "scheduledTime": "17:15"
+        },
+        {
+          "slotKey": "2015:dinner",
+          "title": "شام",
+          "scheduledTime": "20:15"
+        },
+        {
+          "slotKey": "2245:bedtime",
+          "title": "پیش از خواب",
+          "scheduledTime": "22:45"
+        }
+      ]
+    },
+    "monday": {
+      "weekday": "monday",
+      "dayType": "rest",
+      "slots": [
+        {
+          "slotKey": "0530:preworkout",
+          "title": "صبحانه سبک",
+          "scheduledTime": "05:30"
+        },
+        {
+          "slotKey": "0830:breakfast",
+          "title": "صبحانه",
+          "scheduledTime": "08:30"
+        },
+        {
+          "slotKey": "1115:snack1",
+          "title": "میان‌وعده ۱",
+          "scheduledTime": "11:15"
+        },
+        {
+          "slotKey": "1345:lunch",
+          "title": "ناهار",
+          "scheduledTime": "13:45"
+        },
+        {
+          "slotKey": "1715:snack2",
+          "title": "میان‌وعده ۲",
+          "scheduledTime": "17:15"
+        },
+        {
+          "slotKey": "2015:dinner",
+          "title": "شام",
+          "scheduledTime": "20:15"
+        },
+        {
+          "slotKey": "2245:bedtime",
+          "title": "پیش از خواب",
+          "scheduledTime": "22:45"
+        }
+      ]
+    },
+    "tuesday": {
+      "weekday": "tuesday",
+      "dayType": "training",
+      "slots": [
+        {
+          "slotKey": "0530:preworkout",
+          "title": "پیش از تمرین / صبحانه سبک",
+          "scheduledTime": "05:30"
+        },
+        {
+          "slotKey": "0830:breakfast",
+          "title": "پس از تمرین / صبحانه",
+          "scheduledTime": "08:30"
+        },
+        {
+          "slotKey": "1115:snack1",
+          "title": "میان‌وعده ۱",
+          "scheduledTime": "11:15"
+        },
+        {
+          "slotKey": "1345:lunch",
+          "title": "ناهار",
+          "scheduledTime": "13:45"
+        },
+        {
+          "slotKey": "1715:snack2",
+          "title": "میان‌وعده ۲",
+          "scheduledTime": "17:15"
+        },
+        {
+          "slotKey": "2015:dinner",
+          "title": "شام",
+          "scheduledTime": "20:15"
+        },
+        {
+          "slotKey": "2245:bedtime",
+          "title": "پیش از خواب",
+          "scheduledTime": "22:45"
+        }
+      ]
+    },
+    "wednesday": {
+      "weekday": "wednesday",
+      "dayType": "training",
+      "slots": [
+        {
+          "slotKey": "0530:preworkout",
+          "title": "پیش از تمرین / صبحانه سبک",
+          "scheduledTime": "05:30"
+        },
+        {
+          "slotKey": "0830:breakfast",
+          "title": "پس از تمرین / صبحانه",
+          "scheduledTime": "08:30"
+        },
+        {
+          "slotKey": "1115:snack1",
+          "title": "میان‌وعده ۱",
+          "scheduledTime": "11:15"
+        },
+        {
+          "slotKey": "1345:lunch",
+          "title": "ناهار",
+          "scheduledTime": "13:45"
+        },
+        {
+          "slotKey": "1715:snack2",
+          "title": "میان‌وعده ۲",
+          "scheduledTime": "17:15"
+        },
+        {
+          "slotKey": "2015:dinner",
+          "title": "شام",
+          "scheduledTime": "20:15"
+        },
+        {
+          "slotKey": "2245:bedtime",
+          "title": "پیش از خواب",
+          "scheduledTime": "22:45"
+        }
+      ]
+    },
+    "thursday": {
+      "weekday": "thursday",
+      "dayType": "rest",
+      "slots": [
+        {
+          "slotKey": "0530:preworkout",
+          "title": "صبحانه سبک",
+          "scheduledTime": "05:30"
+        },
+        {
+          "slotKey": "0830:breakfast",
+          "title": "صبحانه",
+          "scheduledTime": "08:30"
+        },
+        {
+          "slotKey": "1115:snack1",
+          "title": "میان‌وعده ۱",
+          "scheduledTime": "11:15"
+        },
+        {
+          "slotKey": "1345:lunch",
+          "title": "ناهار",
+          "scheduledTime": "13:45"
+        },
+        {
+          "slotKey": "1715:snack2",
+          "title": "میان‌وعده ۲",
+          "scheduledTime": "17:15"
+        },
+        {
+          "slotKey": "2015:dinner",
+          "title": "شام",
+          "scheduledTime": "20:15"
+        },
+        {
+          "slotKey": "2245:bedtime",
+          "title": "پیش از خواب",
+          "scheduledTime": "22:45"
+        }
+      ]
+    },
+    "friday": {
+      "weekday": "friday",
+      "dayType": "rest",
+      "slots": [
+        {
+          "slotKey": "0530:preworkout",
+          "title": "صبحانه سبک",
+          "scheduledTime": "05:30"
+        },
+        {
+          "slotKey": "0830:breakfast",
+          "title": "صبحانه",
+          "scheduledTime": "08:30"
+        },
+        {
+          "slotKey": "1115:snack1",
+          "title": "میان‌وعده ۱",
+          "scheduledTime": "11:15"
+        },
+        {
+          "slotKey": "1345:lunch",
+          "title": "ناهار",
+          "scheduledTime": "13:45"
+        },
+        {
+          "slotKey": "1715:snack2",
+          "title": "میان‌وعده ۲",
+          "scheduledTime": "17:15"
+        },
+        {
+          "slotKey": "2015:dinner",
+          "title": "شام",
+          "scheduledTime": "20:15"
+        },
+        {
+          "slotKey": "2245:bedtime",
+          "title": "پیش از خواب",
+          "scheduledTime": "22:45"
+        }
+      ]
+    }
+  },
+  "fattyLiverNotes": [
+    "راهنما و ملاحظات",
+    "۱. مواد و برآوردها",
+    "۲. جمع و فرمول‌ها",
+    "۳. انتخاب هفتگی",
+    "۴. روش پخت",
+    "۵. کبد چرب",
+    "۶. اجرا و پایش",
+    "۷. برآورد انرژی",
+    "۸. محدودیت دقت"
+  ]
+}
