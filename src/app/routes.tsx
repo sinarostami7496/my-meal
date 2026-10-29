@@ -8,7 +8,11 @@ import { SettingsPage } from '@/pages/SettingsPage';
 import { TodayPage } from '@/pages/TodayPage';
 import { WeightPage } from '@/pages/WeightPage';
 
-export const router = createBrowserRouter([
+const basename =
+  import.meta.env.BASE_URL === '/' ? undefined : import.meta.env.BASE_URL.replace(/\/$/, '');
+
+export const router = createBrowserRouter(
+  [
   {
     path: '/',
     element: <AppLayout />,
@@ -22,4 +26,6 @@ export const router = createBrowserRouter([
       { path: 'settings', element: <SettingsPage /> },
     ],
   },
-]);
+  ],
+  { basename },
+);

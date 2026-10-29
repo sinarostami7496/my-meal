@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "generate:meal-plan": "node scripts/generateMealPlan.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preview:pages": "npm run build && vite preview --base /my-meal/"
   },
   "dependencies": {
     "@fontsource/vazirmatn": "^5.3.0",
